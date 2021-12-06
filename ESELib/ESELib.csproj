@@ -77,6 +77,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="ReceiptsDataSet.cs">
+      <DependentUpon>ReceiptsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiptsDataSet.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -105,6 +113,17 @@
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReceiptsDataSet.xsc">
+      <DependentUpon>ReceiptsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiptsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiptsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReceiptsDataSet.xss">
+      <DependentUpon>ReceiptsDataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
