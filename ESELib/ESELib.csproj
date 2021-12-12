@@ -85,6 +85,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ReceiptsDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ServiceOrderDataSet.cs">
+      <DependentUpon>ServiceOrderDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceOrderDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceOrderDataSet.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -124,6 +132,17 @@
     </None>
     <None Include="ReceiptsDataSet.xss">
       <DependentUpon>ReceiptsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ServiceOrderDataSet.xsc">
+      <DependentUpon>ServiceOrderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ServiceOrderDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ServiceOrderDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ServiceOrderDataSet.xss">
+      <DependentUpon>ServiceOrderDataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
